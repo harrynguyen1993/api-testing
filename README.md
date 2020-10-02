@@ -47,7 +47,7 @@ API TESTING is a software testing type that validates Application Programming In
   - Daily (fixed time at nigth)
   - Deployment (CI-CD)
   
-# PROPLEM API NEED TO SOULVE - GOALS
+# PROPLEM API NEED TO BE SOLVED - GOALS
  - Can swith enviroment by danamic variables
  - Can run paranel 
  - Can run command line
@@ -59,7 +59,7 @@ API TESTING is a software testing type that validates Application Programming In
  - Send email after running: HTML file, short status pass fail
 
 # LANGUAGES
-  - Nodejs
+  - NodeJS
     - Mocha
     - Chaijs
     - Chaijs-http
