@@ -42,7 +42,8 @@ API TESTING is a software testing type that validates Application Programming In
   - Verify relationships between resources are reflected in the API  correctly
   * Other cases:
     - Verify correct application state.
-
+    - Require fields (Check constrain)
+    - Optional fields (Should check length and type in database)
 # RUNING API
   - Daily (fixed time at nigth)
   - Deployment (CI-CD)
@@ -60,9 +61,13 @@ API TESTING is a software testing type that validates Application Programming In
 
 # LANGUAGES
   - NodeJS
-    - Mocha
-    - Chaijs
-    - Chaijs-http
+    - chai
+    - chai-http
+    - chalk
+    - dotenv
+    - mocha
+    - mochawesome
+    - yargs
     
    --------------
    
