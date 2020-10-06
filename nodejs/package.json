@@ -22,5 +22,8 @@
     "mocha": "^8.1.3",
     "mochawesome": "^6.1.1",
     "yargs": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/chai-http": "^4.2.0"
   }
 }
