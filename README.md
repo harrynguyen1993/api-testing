@@ -7,6 +7,7 @@ API TESTING is a software testing type that validates Application Programming In
   - PATCH
   - DELETE
   - GET
+  ...
   
 # TEST SCENARIO CATEGORIES
   - Positive tests
@@ -31,9 +32,9 @@ API TESTING is a software testing type that validates Application Programming In
     -  Documentation, login, authentication, code examples .. etc
 
 # API CHECKING
-  - Verify correct HTTP status code
+  - Verify correct HTTP status code: https://www.restapitutorial.com/httpstatuscodes.html
   - Verify response time
-  - Verify response payload. Check valid JSON body and correct field names, types, and values — including in error responses (Json schema)
+  - Verify response payload. Check valid JSON body and correct field names, types, and values — including in error responses (Json schema) https://www.liquid-technologies.com/online-json-to-schema-converter
   - Verify response headers
   - Verify data (Working correctly as expected )
   - Verify endpoints are correctly named 
@@ -44,6 +45,7 @@ API TESTING is a software testing type that validates Application Programming In
     - Verify correct application state.
     - Require fields (Check constrain)
     - Optional fields (Should check length and type in database)
+    
 # RUNING API
   - Daily (fixed time at nigth)
   - Deployment (CI-CD)
