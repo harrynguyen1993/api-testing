@@ -19,6 +19,7 @@
     "chai-http": "^4.3.0",
     "chalk": "^4.1.0",
     "dotenv": "^8.2.0",
+    "log4js": "^6.3.0",
     "mocha": "^8.1.3",
     "mochawesome": "^6.1.1",
     "yargs": "^16.0.3"

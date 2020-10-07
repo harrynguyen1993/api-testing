@@ -100,8 +100,8 @@ function _delete(server, path, headers = {}) {
 
 }
 module.exports = {
-    get: _get,
-    post: _post,
-    put: _put,
-    delete: _delete
+    _get: _get,
+    _post: _post,
+    _put: _put,
+    _delete: _delete
 }
