@@ -44,7 +44,11 @@ API TESTING is a software testing type that validates Application Programming In
   * Other cases:
     - Verify correct application state.
     - Require fields (Check constrain)
-    - Optional fields (Should check length and type in database)
+    - Optional fields (Should check length and type in database, invalid input [script, emoji icon, special characters, unicode(Latin .... ) ])
+      - Example:
+        - database len []
+    - Require field and optional fields
+    - 
     
 # RUNING API
   - Daily (fixed time at nigth)
