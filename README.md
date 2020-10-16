@@ -19,11 +19,11 @@ API TESTING is a software testing type that validates Application Programming In
 
 # STRATEGY 
   - Define scenarios 
+    - Functional Testing
     - Smoke testing
     - Sanity testing
     - Regression testing
     - End 2 End testing
-    - Functional Testing
     - Security and Authorization
   - Performance
     - Load Tests (positive)
@@ -45,10 +45,9 @@ API TESTING is a software testing type that validates Application Programming In
     - Verify correct application state.
     - Require fields (Check constrain)
     - Optional fields (Should check length and type in database, invalid input [script, emoji icon, special characters, unicode(Latin .... ) ])
-      - Example:
-        - database len []
-    - Require field and optional fields
-    - 
+    - Require field and optional fields (specific fields)
+    - Data type of input or output: Datadabse 
+      - Refer this link https://www.mysqltutorial.org/mysql-data-types.aspx/
     
 # RUNING API
   - Daily (fixed time at nigth)
