@@ -25,6 +25,7 @@
     "yargs": "^16.0.3"
   },
   "devDependencies": {
-    "@types/chai-http": "^4.2.0"
+    "@types/chai-http": "^4.2.0",
+    "mocha-simple-html-reporter": "^1.1.0"
   }
 }

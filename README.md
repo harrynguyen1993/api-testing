@@ -70,16 +70,23 @@ API TESTING is a software testing type that validates Application Programming In
     - mocha
     - mochawesome
     - yargs
+
+    ![APIs Testing NodeJS Architect](3DTest.png)
     
    --------------
    
   - Python
     - pytest
     - requests (library)
-    - Robot framework
     
+
+    ![APIs Testing Python Architect](3DTest.png)
    --------------
    
+  - Postman tool
+    - Newman 
+
+    ![APIs Testing postman tool Architect](3DTest.png) 
    
   - Java
     - Rest Assured
